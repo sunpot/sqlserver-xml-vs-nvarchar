@@ -13,7 +13,7 @@ namespace SqlserverXmlVsNvarchar
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=10.0.10.81;Initial Catalog=SqlserverXmlVsNvarchar;User ID=sa;Password=***;");
+            optionsBuilder.UseSqlServer(@"Data Source=localhost;Initial Catalog=SqlserverXmlVsNvarchar;User ID=sa;Password=******;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
